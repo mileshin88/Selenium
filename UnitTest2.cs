@@ -41,10 +41,10 @@ public class UnitTest2
          driver.Navigate().GoToUrl("https://staff-testing.testkontur.ru/"); // переход по урлу
 
          var login = driver.FindElement(By.Id("Username")); // ищем кнопку логин
-         login.SendKeys("mileshin88@gmail.com"); // вводим логин
+         login.SendKeys(""); // вводим логин
 
          var password = driver.FindElement(By.Id("Password")); // ищем кнопку пароль
-         password.SendKeys("(66Ax041347)"); // вводим пароль
+         password.SendKeys("()"); // вводим пароль
 
          var enter = driver.FindElement(By.Name("button")); // ищем кнопку войти
          enter.Click(); // жмём кнопку войти
